@@ -19,10 +19,10 @@ import { OrderService } from '../../../core/services/order.service';
     AddressPipe,
     CurrencyPipe,
     PaymentCardPipe,
-    NgIf,
+    NgIf
   ],
   templateUrl: './checkout-success.component.html',
-  styleUrl: './checkout-success.component.scss',
+  styleUrl: './checkout-success.component.scss'
 })
 export class CheckoutSuccessComponent implements OnDestroy {
   signalrService = inject(SignalrService);
